@@ -1,4 +1,4 @@
-# Flat prototyping
+# Simple prototyping
 Simple setup for web prototyping, enabling code as a design tool with as little hassle as possible.
 
 ## Requirements
