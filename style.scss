@@ -1,0 +1,146 @@
+@import 'css/normalize-min.scss';
+@import 'css/normalize-opentype-min.scss';
+@import 'css/flexboxgrid.min.scss'; // Include Flexbox grid
+
+// Font stacks
+$font: Helvetica, Arial, sans-serif;
+$font2: Times New Roman, Times, serif;
+
+// Main colors
+$black: #000000;
+$white: #ffffff;
+$background: $white; 
+$text: $black;
+
+// Global measurements
+$padding-main: 1em;
+$line-height: 1.375em;
+
+// Responsive widths and mixin
+$width-s: 25em;
+$width-sm: 48em;
+$width-md: 64em;
+$width-lg: 75em;
+$width-xl: 90em;
+ 
+@mixin r($width){
+
+	@if $width == s{
+		@media only screen and (min-width: $width-s) { @content; }
+	}
+
+	@else if $width == sm{
+		@media only screen and (min-width: $width-sm) { @content; }
+	}
+
+	@else if $width == md{
+		@media only screen and (min-width: $width-md) { @content; }
+	}
+
+	@else if $width == lg{
+		@media only screen and (min-width: $width-lg) { @content; }
+	}
+
+	@else if $width == xl{
+		@media only screen and (min-width: $width-xl) { @content; }
+	}
+}
+
+
+// Pretty underlines for capable browsers
+@mixin underline{
+	text-decoration: underline;
+	text-decoration-skip: ink;
+}
+
+// Global styles
+*, *:before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html{}
+
+body{
+	background: $background;
+	color: $text;
+	font: 400 1em/1.75 $font;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	overflow-x: hidden;
+	text-rendering: optimizeLegibility;
+	transition: background 0.5s ease-in-out;
+
+	@include r(sm){
+		font-size: 1em;
+	}
+
+	@include r(md){
+		font-size: 1.125em;
+	}
+
+	@include r(lg){
+		font-size: 1.25em;
+	}
+
+	@include r(xl){
+		font-size: 1.375em;
+	}
+}
+
+	a{
+		color: inherit;
+		@include underline;
+
+		&:active, &:focus, &:hover{
+			text-decoration: none;
+		}
+	}
+		
+	figure{
+		margin: 0;
+		padding: 0;
+	}
+
+		figcaption{}
+
+	h1, h2, h3, h4, h5, h6{
+		font: inherit;
+		font-weight: bold;
+		line-height: 1.1;
+		margin: 0;
+			margin-bottom: $line-height;
+	}
+
+	hr{
+		border: none;
+			border-bottom: 1px solid #333;
+	}
+
+	img{
+		height: auto;
+		max-width: 100%;
+	}
+
+	p{
+		margin: 0;
+		max-width: 35em;
+	}
+
+	section{}
+
+	ul, li{
+		margin: 0;
+		padding: 0;
+	}
+
+	::selection{
+		background: #bbb;
+		color: inherit;
+	}
+
+.site{
+	padding: 5%;
+}
