@@ -2,7 +2,7 @@
 Simple setup for web prototyping, enabling code as a design tool with as little hassle as possible.
 
 ## Requirements
-Local server setup (MAMP or similar) and Codekit. Should probably make this project independent of Codekit at some point.
+Local server setup (MAMP or similar). Just download and place files in your htdocs or similar.
 
 ## Features
 ### Flexboxgrid
@@ -14,5 +14,5 @@ Simple template system with includes for header and footer. No magic. PHP is tot
 ### Offline
 jQuery, Velocity and smoothState included, no CDNs. Great for prototyping on the go, right.
 
-### SCSS and Codekit
-Speed matters in prototypes too: Sass setup that minifies all styles. Codekit powered minifying of JS. 
+### SCSS
+For separation of files and minifying.
