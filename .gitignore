@@ -2,3 +2,5 @@
 .DS_Store
 
 *.codekit3
+*.sublime-project
+*.sublime-workspace

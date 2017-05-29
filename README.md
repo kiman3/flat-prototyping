@@ -1,18 +1,14 @@
-# Simple prototyping
-Simple setup for web prototyping, enabling code as a design tool with as little hassle as possible.
+# Simple layout prototyping
+The simplest setup for _web layout sketching_ with code.
+
+## Key features
+* 12 column grid system (the excellent Flexboxgrid – https://github.com/kristoferjoseph/flexboxgrid)
+* jQuery
+* Velocity.js animation engine
+* smoothState.js for unobtrusive page transitions
+* Normalizing and baseline styles in place, so you can focus on the fun parts
+* Super simple PHP templating system for includes.
+* Everything works offline, no CDNs etc.
 
 ## Requirements
-Local server setup (MAMP or similar). Just download and place files in your htdocs or similar.
-
-## Features
-### Flexboxgrid
-Using the excellent https://github.com/kristoferjoseph/flexboxgrid for a simple 12 column grid system and basic Flexbox capabilities.
-
-### PHP
-Simple template system with includes for header and footer. No magic. PHP is totally fine for this.
-
-### Offline
-jQuery, Velocity and smoothState included, no CDNs. Great for prototyping on the go, right.
-
-### SCSS
-For separation of files and minifying.
+Local server setup (MAMP or similar). Just download and place files in your htdocs or similar. And you should use Sass if you can, although a clean CSS file is also provided.
