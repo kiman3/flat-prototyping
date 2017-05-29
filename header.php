@@ -6,7 +6,7 @@
 
 	<title><?php echo $title; ?></title>
 
-	<link rel="stylesheet" href="style.css" media="screen">
+	<link rel="stylesheet" href="assets/style.css" media="screen">
 </head>
 <body id="<?php echo $id; ?>">
 
