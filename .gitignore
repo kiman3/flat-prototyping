@@ -4,3 +4,4 @@
 *.codekit3
 *.sublime-project
 *.sublime-workspace
+package.json
