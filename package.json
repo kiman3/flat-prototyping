@@ -1,6 +1,6 @@
 {
   "name": "simple-prototyping",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "The simplest setup for web layout sketching with code",
   "main": "site.js",
   "scripts": {
