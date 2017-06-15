@@ -1340,7 +1340,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 62em) {
   body {
     font-size: 1.125em;
   }
