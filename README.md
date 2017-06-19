@@ -1,4 +1,4 @@
-# Simple web layout prototyping
+# Web layout prototyping
 The simplest setup for _web layout sketching_ with code.
 
 ## Key features
