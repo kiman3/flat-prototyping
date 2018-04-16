@@ -8,7 +8,7 @@
 
 	<link rel="stylesheet" href="assets/style.css" media="screen">
 </head>
-<body id="<?php echo $id; ?>">
+<body class="no-js" id="<?php echo $id; ?>">
 
 <div class="site">
 	<header class="header-main"></header>
