@@ -2,12 +2,13 @@
 The simplest setup for _web layout sketching_ with code.
 
 ## Key features
-* 12 column grid system (the excellent Flexboxgrid – https://github.com/kristoferjoseph/flexboxgrid)
-* jQuery
-* Velocity.js animation engine
-* smoothState.js for unobtrusive page transitions
+* 12 column grid system ([Flexboxgrid](https://github.com/kristoferjoseph/flexboxgrid))
 * Normalizing and baseline styles in place, so you can focus on the fun parts
+* jQuery ¯\_(ツ)_/¯ 
+* [Velocity.js](http://velocityjs.org/) animation engine
+* [smoothState.js](https://github.com/miguel-perez/smoothState.js) for unobtrusive page transitions
 * Super simple PHP templating system for includes.
+* No-js/js check, sets relevant class on body
 * Everything works offline, no CDNs etc.
 
 ## Requirements
