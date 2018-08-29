@@ -3,6 +3,7 @@ The simplest setup for _web layout sketching_ with code.
 
 ## Key features
 * 12 column grid system ([Flexboxgrid](https://github.com/kristoferjoseph/flexboxgrid))
+* Grid widget to check if things align. Toggle by pressing "g".
 * Normalizing and baseline styles in place, so you can focus on the fun parts
 * jQuery ¯\_(ツ)_/¯ 
 * [Velocity.js](http://velocityjs.org/) animation engine
