@@ -144,3 +144,34 @@ body{
 .site{
 	padding: 5%;
 }
+
+.grid-widget{
+	display: none;
+	height: 100vh;
+	pointer-events: none;
+	position: fixed;
+		top: 0;
+		left: 4.4vw;
+	width: calc(100vw - 8.8vw + 2rem);
+	z-index: 1000;
+
+	&.is-active{
+		display: flex;
+	}
+
+	.row{
+		width: 100%;
+	}
+
+	.col-xs-1{
+		position: relative;
+
+		span{
+			background: rgba(0, 0, 0, 0.2);
+			color: transparent;
+			display: block;
+			height: 100%;
+			text-align: center;
+		}
+	}
+}

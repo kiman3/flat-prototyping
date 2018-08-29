@@ -61,6 +61,17 @@ function responsiveVideos(){
 }
 responsiveVideos();
 
+function gridWidget(){
+	$gridWidget = $('.grid-widget');
+	$(document).keydown(function(e){
+		if (e.keyCode == 71) { // Key "g" 
+			$gridWidget.toggleClass('is-active');
+			return false;
+		}
+	});
+}
+gridWidget();
+
 
 // Configure and initialize smoothstate
 // Remember to initialize all relevant functions onAfter

@@ -200,6 +200,14 @@
 			}
 		},
 		{
+			"file": "assets/js/js-snippets.js",
+			"settings":
+			{
+				"buffer_size": 2337,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "assets/style.scss",
 			"settings":
 			{
@@ -314,7 +322,9 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/kim/Documents/Sites/dev/web-layout-prototyping"
+		"/Users/kim/Documents/Sites/dev/web-layout-prototyping",
+		"/Users/kim/Documents/Sites/dev/web-layout-prototyping/assets",
+		"/Users/kim/Documents/Sites/dev/web-layout-prototyping/assets/js"
 	],
 	"file_history":
 	[
@@ -480,7 +490,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -508,11 +518,40 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "assets/js/js-snippets.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2337,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								44,
+								17
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "assets/style.scss",
 					"semi_transient": false,
 					"settings":
@@ -537,11 +576,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "assets/js/site.js",
 					"semi_transient": false,
 					"settings":
@@ -565,7 +604,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]

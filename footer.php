@@ -1,4 +1,22 @@
-<footer class="footer-main grid"></footer>
+	<footer class="footer-main grid"></footer>
+	
+	<!-- Grid widget. Toggle by pressing "g" -->
+	<div class="grid-widget">
+		<div class="row">
+			<div class="col-xs-1"><span>1</span></div>
+			<div class="col-xs-1"><span>2</span></div>
+			<div class="col-xs-1"><span>3</span></div>
+			<div class="col-xs-1"><span>4</span></div>
+			<div class="col-xs-1"><span>5</span></div>
+			<div class="col-xs-1"><span>6</span></div>
+			<div class="col-xs-1"><span>7</span></div>
+			<div class="col-xs-1"><span>8</span></div>
+			<div class="col-xs-1"><span>9</span></div>
+			<div class="col-xs-1"><span>10</span></div>
+			<div class="col-xs-1"><span>11</span></div>
+			<div class="col-xs-1"><span>12</span></div>
+		</div>
+	</div>
 
 </div><!-- .site -->
 <script>
