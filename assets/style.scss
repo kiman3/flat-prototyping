@@ -1,6 +1,6 @@
 @import 'css/normalize-min.scss';
 @import 'css/normalize-opentype-min.scss';
-@import 'css/flexboxgrid.min.scss'; // Include Flexbox grid
+@import 'css/flexboxgrid.scss'; // Include Flexbox grid
 
 // Font stacks
 $font: Helvetica, Arial, sans-serif;
@@ -73,21 +73,13 @@ body{
 	text-rendering: optimizeLegibility;
 	transition: background 0.5s ease-in-out;
 
-	@include r(sm){
-		font-size: 1em;
-	}
+	@include r(sm){}
 
-	@include r(md){
-		font-size: 1.125em;
-	}
+	@include r(md){}
 
-	@include r(lg){
-		font-size: 1.25em;
-	}
+	@include r(lg){}
 
-	@include r(xl){
-		font-size: 1.375em;
-	}
+	@include r(xl){}
 }
 
 	a{
@@ -151,8 +143,8 @@ body{
 	pointer-events: none;
 	position: fixed;
 		top: 0;
-		left: 4.4vw;
-	width: calc(100vw - 8.8vw + 2rem);
+		left: 5vw;
+	width: calc(100vw - 10w + 2em);
 	z-index: 1000;
 
 	&.is-active{
