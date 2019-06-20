@@ -5,8 +5,10 @@ Simple setup for web layout sketching with code.
 * 12 column grid system with gutter variables (customized [Flexboxgrid](https://github.com/kristoferjoseph/flexboxgrid))
 * Normalizing and baseline styles in place, so you can focus on the fun parts
 * [swup](https://github.com/swup/swup) for unobtrusive page transitions
-* jQuery
-* [Velocity.js](http://velocityjs.org/) animation engine
+* [LazyLoad](https://github.com/verlok/lazyload) for lazyloading images, background images, videos and iframes
+* [in-view](https://camwiegert.github.io/in-view/) for detecting when elements become visible in viewport
+* [jQuery](https://jquery.com/)
+* [Velocity.js](http://velocityjs.org/) for smoother animations
 * Simple PHP templating system for includes.
 * Grid widget to check if things align. Add from js-snippets.js. Toggle by pressing "g".
 * No-js/js check, sets relevant class on body
