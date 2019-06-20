@@ -1,5 +1,5 @@
 # Web layout prototyping
-Simple setup for web layout sketching with code.
+Simple setup for web layout sketching and prototyping with code.
 
 ## Key features
 * 12 column grid system with gutter variables (customized [Flexboxgrid](https://github.com/kristoferjoseph/flexboxgrid))
