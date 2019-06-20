@@ -29,6 +29,23 @@ function detectJs(){
 }
 detectJs();
 
+// When elements enter the window, in-view
+// Example setup, give your HTML elements a "view" class
+function inViewInit() {
+	inView('.view').on('enter', function (el) {
+		el.classList.add('visible');
+	});
+}
+inViewInit();
+
+// Lazyload
+// Example setup, give your HTML elements a "lazyload" class
+var lazyLoadInstance = new LazyLoad({
+	elements_selector: '.lazyload',
+	threshold: 0
+});
+
+
 
 // Smooth scroll
 var page = $('html, body');

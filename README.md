@@ -2,7 +2,7 @@
 Simple setup for web layout sketching with code.
 
 ## Key features
-* 12 column grid system with gutter variables (Customized [Flexboxgrid](https://github.com/kristoferjoseph/flexboxgrid))
+* 12 column grid system with gutter variables (customized [Flexboxgrid](https://github.com/kristoferjoseph/flexboxgrid))
 * Normalizing and baseline styles in place, so you can focus on the fun parts
 * [swup](https://github.com/swup/swup) for unobtrusive page transitions
 * jQuery
