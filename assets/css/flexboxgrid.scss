@@ -5,8 +5,8 @@
 }
 
 .container-fluid {
-  padding-right: 2rem;
-  padding-left: 2rem;
+  padding-right: var(--padding-double);
+  padding-left: var(--padding-double);
 }
 
 .row {
@@ -23,8 +23,8 @@
   flex-direction: row;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -0.5rem;
-  margin-left: -0.5rem;
+  margin-right: var(--padding-half-neg);
+  margin-left: var(--padding-half-neg);
 }
 
 .row.reverse {
@@ -71,8 +71,8 @@
   -webkit-box-flex: 0;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
+  padding-right: var(--padding-half);
+  padding-left: var(--padding-half);
 }
 
 .col-xs {
@@ -301,8 +301,8 @@
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: var(--padding-half);
+    padding-left: var(--padding-half);
   }
 
   .col-sm {
@@ -532,8 +532,8 @@
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: var(--padding-half);
+    padding-left: var(--padding-half);
   }
 
   .col-md {
@@ -763,8 +763,8 @@
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: var(--padding-half);
+    padding-left: var(--padding-half);
   }
 
   .col-lg {

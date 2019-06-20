@@ -1,3 +1,35 @@
+// Swup options
+var options = {
+	containers: [
+		'#page'
+	],
+	plugins: [
+		new SwupBodyClassPlugin(),
+		new SwupScrollPlugin({
+		    doScrollingRightAway: false,
+		    animateScroll: true,
+		    scrollFriction: 0.3,
+		    scrollAcceleration: 0.04,
+		}),
+		new SwupPreloadPlugin()
+	]
+}
+
+var swup = new Swup(options);
+
+// Run JS after page change via Swup
+swup.on('contentReplaced', function () {
+	detectJs()
+});
+
+
+// Detect JS, set class on body
+function detectJs(){
+	document.body.className = document.body.className.replace('no-js', 'js');
+}
+detectJs();
+
+
 // Smooth scroll
 var page = $('html, body');
 
@@ -21,6 +53,7 @@ function smoothScroll() {
 }
 smoothScroll();
 
+
 // Top scroll
 function topScroll(){
 	$('.scroll-top').on('click', function(){
@@ -34,6 +67,7 @@ function topScroll(){
 	});
 }
 topScroll();
+
 
 // Responsive videos (YouTube and Vimeo embeds)
 function responsiveVideos(){
@@ -91,28 +125,3 @@ function gridWidget(){
 	});
 }
 gridWidget();
-
-
-// Configure and initialize smoothstate
-// Remember to initialize all relevant functions onAfter
-$( function() {
-	var $body = $('body');
-	var settings = { 
-		anchors: 'a',
-		cacheLength: 4,
-		loadingClass: 'is-loading',
-		onStart: {
-			duration: 500,
-			render: function ( $container ) {
-				$container.addClass( 'slide-out' )
-			}
-		},
-		onAfter: function( $container, $newContent ) {
-			// Remember to add functions
-			$container.removeClass( 'slide-out' );
-		},
-		prefetch: true
-	};
-
-	$('#page').smoothState( settings );
-});
