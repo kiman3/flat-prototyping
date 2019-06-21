@@ -5,7 +5,7 @@
   --padding-half: 0.5rem;
   --padding-half-neg: -0.5rem;
   --padding-double: 2rem;
-  --line-height: 1.375em;
+  --line-height: $line-height;
 }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -1451,7 +1451,7 @@ caption {
 body {
   background: #ffffff;
   color: #000000;
-  font: 400 0.7272727273 Helvetica, Arial, sans-serif;
+  font: 400 1em/1.375em Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
