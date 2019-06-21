@@ -1518,36 +1518,3 @@ ul, li {
 .site {
   padding: 5%;
 }
-
-.grid-widget {
-  display: none;
-  height: 100vh;
-  pointer-events: none;
-  position: fixed;
-  top: 0;
-  left: 5vw;
-  width: calc(100vw - 10w + 2em);
-  z-index: 1000;
-}
-
-.grid-widget.is-active {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: flex;
-}
-
-.grid-widget .row {
-  width: 100%;
-}
-
-.grid-widget .col-xs-1 {
-  position: relative;
-}
-
-.grid-widget .col-xs-1 span {
-  background: rgba(0, 0, 0, 0.2);
-  color: transparent;
-  display: block;
-  height: 100%;
-  text-align: center;
-}

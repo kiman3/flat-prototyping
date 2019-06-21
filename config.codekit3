@@ -17,6 +17,19 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
+	"/assets/css/css-snippets.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/css-snippets.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
 	"/assets/css/flexboxgrid.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -96,6 +109,17 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/assets/js/lazyload.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/site-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/site-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -189,28 +213,12 @@
 		"oS": 1,
 		"uL": 1
 		},
-	"/footer.php": {
+	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/footer.php",
-		"oF": 0
-		},
-	"/header.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/header.php",
-		"oF": 0
-		},
-	"/index.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/index.php",
+		"oAP": "/index.html",
 		"oF": 0
 		},
 	"/LICENSE": {
