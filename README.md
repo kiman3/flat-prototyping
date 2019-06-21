@@ -14,5 +14,5 @@ Simple setup for web layout sketching and prototyping with code.
 * No-js/js check, sets relevant class on body
 * Everything works offline, no CDNs etc.
 
-## Requirements
-Since it uses PHP, you need a local server setup (MAMP or similar). Just download and place files in your htdocs or your equivalent.
+## Recommendations
+[Sass](https://sass-lang.com/)
