@@ -1,16 +1,17 @@
 // Global variables
-$line-height: 1.375em;
+$line-height-clean: 1.375;
+$line-height: #{$line-height-clean}em;
 
 :root{
 	// Padding variables controls grid gutter and negative margins
 	--padding: 1rem;              // Base value to use elsewhere on site
-	--padding-neg: -1rem;         // Base value to use elsewhere on site
+	--padding-neg: calc(var(--padding) * -1);         // Base value to use elsewhere on site
 
-	--padding-half: 0.5rem;       // Grid gutter (.col-)
-	--padding-half-neg: -0.5rem;  // Grid row negative (.row)
-	--padding-double: 2rem;       // Grid outer margin (.container-fluid)
+	--padding-half: calc(var(--padding) / 2);       // Grid gutter (.col-)
+	--padding-half-neg:  calc(var(--padding-half) * -1);  // Grid row negative (.row)
+	--padding-double: calc(var(--padding) * -1);       // Grid outer margin (.container-fluid)
 	
-	--line-height: $line-height;
+	--line-height: $line-height-clean;
 }
 
 @import 'css/normalize-min.scss';
@@ -76,7 +77,7 @@ html{}
 body{
 	background: $background;
 	color: $text;
-	font: 400 1em/#{$line-height} $font;
+	font: 400 1em/#{$line-height-clean} $font;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 	margin: 0;
