@@ -111,34 +111,3 @@ function responsiveVideos(){
 	}
 }
 responsiveVideos();
-
-
-// Grid widget, toggle by pressing "g"
-// Add following to HTML as well
-// <div class="grid-widget">
-// 	<div class="row">
-// 		<div class="col-xs-1"><span>1</span></div>
-// 		<div class="col-xs-1"><span>2</span></div>
-// 		<div class="col-xs-1"><span>3</span></div>
-// 		<div class="col-xs-1"><span>4</span></div>
-// 		<div class="col-xs-1"><span>5</span></div>
-// 		<div class="col-xs-1"><span>6</span></div>
-// 		<div class="col-xs-1"><span>7</span></div>
-// 		<div class="col-xs-1"><span>8</span></div>
-// 		<div class="col-xs-1"><span>9</span></div>
-// 		<div class="col-xs-1"><span>10</span></div>
-// 		<div class="col-xs-1"><span>11</span></div>
-// 		<div class="col-xs-1"><span>12</span></div>
-// 	</div>
-// </div>
-
-function gridWidget(){
-	$gridWidget = $('.grid-widget');
-	$(document).keydown(function(e){
-		if (e.keyCode == 71) { // Key "g" 
-			$gridWidget.toggleClass('is-active');
-			return false;
-		}
-	});
-}
-gridWidget();

@@ -145,6 +145,6 @@ body{
 		color: inherit;
 	}
 
-.site{
-	padding: 5%;
+#app{
+	padding: var(--padding);
 }
