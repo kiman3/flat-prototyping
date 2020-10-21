@@ -56,6 +56,17 @@
 		"oS": 1,
 		"sct": 1
 		},
+	"/assets/js/app.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/app-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/assets/js/in-view.min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -107,17 +118,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/assets/js/site-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/assets/js/site.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/site-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
